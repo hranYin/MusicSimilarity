@@ -1,7 +1,12 @@
 # Music_Similarity
 Research code for my dissertation while studying a MSc in Computer Science at University of Birmingham.
 
-Dependancies: librosa, numpy
+GTZAN data set: http://opihi.cs.uvic.ca/sound/genres.tar.gz
+
+To run the software python 3 must be installed, the easiest method is still install anaconda as it contains most of the Dependancies.
+Each notebook requires a directory of audio files with '.wav' extension in order to function correctly. The path variable must be updated to this directory. 
+
+Dependancies: librosa, numpy, Jupyter Notebook
 Optional packages: pandas, tqdm, matplotlib.pyplot
 
 Evaluation of the methods used are made using code provided by Matrix Profile Foundation, the specific algorithm used is SiMPle.
